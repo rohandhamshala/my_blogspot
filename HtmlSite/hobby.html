@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website - Hobby</title>
+	<link rel="stylesheet" type="text/css" href="../CSSSite/style.css">
+	<script src="../JSSite/script.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="hobby.html">Hobby</a></li>
+				<li><a href="hometown.html">Hometown</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+        <h1>My Hobby</h1>
+        <p>
+          I have many hobbies, but one of my favorite hobbies is photography. I love capturing the beauty of nature and the world around us. Here are some of my favorite photos:
+        </p>
+        <div id="image-container">
+          <img src="https://picsum.photos/300/200?random=1" alt="Photo 1">
+          <img src="https://picsum.photos/300/200?random=2" alt="Photo 2">
+          <img src="https://picsum.photos/300/200?random=3" alt="Photo 3">
+        </div>
+        <div id="text-container">
+          <p>This is the default text.</p>
+          <button onclick="changeText()">Change Text</button>
+          <button onclick="changeImages()">changeImages</button>
+        </div>
+        <div id="input-container">
+          <label for="input-field">Enter a value:</label>
+          <input type="text" id="input-field" name="input-field">
+          <button onclick="checkValue()">Submit</button>
+          <p id="error-message"></p>
+        </div>
+        <section>
+            <h2>My Hobby</h2>
+            <button onclick="toggleAccordion()">wanna know more</button>
+            <div id="accordion-content" style="display: none;">
+              <h3>Things to Do</h3>
+              <ul>
+                <li>Visit the  Garden</li>
+                <li>Take a bike ride </li>
+                <li>Go to the local farm</li>
+              </ul>
+            
+          </section>
+        
+      </main>
+      
+	<footer>
+		<p>Contact me:</p>
+		<ul>
+			<li>Email: rohandamshala@gmail.com</li>
+			<li>Phone: 123-456-7890</li>
+			<li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+			<li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
